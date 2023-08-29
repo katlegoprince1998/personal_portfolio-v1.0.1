@@ -3,7 +3,7 @@ import MyImage from "../Assets/dev.jpg";
 
 const About = () => {
   return (
-    <div className='pt-36 px-6 grid grid-cols-1 gap-8 justify-center items-center md:flex'>
+    <div className='pt-36 px-6 grid grid-cols-1 gap-8 justify-center items-center md:flex' id='Home'>
         <div>
            <div>
             <h1 className='text-[#ca2c92] text-4xl  font-extrabold font-myname md:text-7xl'>DevOps Engineer</h1>
