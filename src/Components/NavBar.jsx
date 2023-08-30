@@ -31,7 +31,7 @@ const NavBar = () => {
                         },
     ]
   return (
-    <div className='flex justify-between items-center h-20 w-full px-4 fixed'>
+    <div className='flex z-50 justify-between items-center h-20 w-full px-4 fixed'>
       <div>
         <h1 className='text-[#ca2c92] font-signature text-4xl ml-2'>Mashego.</h1>
       </div>
