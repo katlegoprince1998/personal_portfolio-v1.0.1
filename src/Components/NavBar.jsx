@@ -31,9 +31,9 @@ const NavBar = () => {
                         },
     ]
   return (
-    <div className='flex z-50 justify-between items-center h-20 w-full px-4 fixed bg-[#2e79ba] '>
+    <div data-aos="zoom-out-left" className='flex z-50 justify-between items-center h-20 w-full px-4 fixed bg-[#2e79ba] '>
       <div>
-        <h1 className='text-white font-signature text-4xl ml-2'>Mashego.</h1>
+        <h1  className='text-white font-signature text-4xl ml-2'>Mashego.</h1>
       </div>
       <ul className='hidden md:flex'>
             {
