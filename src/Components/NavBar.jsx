@@ -31,24 +31,24 @@ const NavBar = () => {
                         },
     ]
   return (
-    <div className='flex z-50 justify-between items-center h-20 w-full px-4 fixed'>
+    <div className='flex z-50 justify-between items-center h-20 w-full px-4 fixed bg-[#2e79ba] '>
       <div>
-        <h1 className='text-[#ca2c92] font-signature text-4xl ml-2'>Mashego.</h1>
+        <h1 className='text-white font-signature text-4xl ml-2'>Mashego.</h1>
       </div>
       <ul className='hidden md:flex'>
             {
                 links.map(({id, link}) => (
-                    <li key={id} className='px-4 cursor-pointer capitalize text-2xl font-medium text-[#ca2c92] hover:scale-105 duration-150'>
+                    <li key={id} className='px-4 cursor-pointer capitalize text-2xl font-medium text-white hover:scale-105 duration-150'>
                        <Link to={link} smooth duration={500}> { link }</Link>
                         </li>
                 ))
             }
       </ul>
-      <div onClick={() => setNav(!nav)} className='text-[#ca2c92] cursor-pointer pr-4 z-10 md:hidden'>
+      <div onClick={() => setNav(!nav)} className='text-white cursor-pointer pr-4 z-10 md:hidden'>
         {nav ?  <FaTimes size={30}  /> :  <FaBars size={30}  />}        
       </div>
       {nav && (
-             <ul className='flex flex-col ease-in-out transition-transform items-start absolute top-0 left-0 pt-36 bg-[#ca2c92] font-bold h-screen w-56'>
+             <ul className='flex flex-col ease-in-out transition-transform items-start absolute top-0 left-0 pt-36 bg-[#2e79ba] font-bold h-screen w-56'>
             
              {
                 links.map(({id, link}) => (

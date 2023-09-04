@@ -12,7 +12,7 @@ const Experience = () => {
         <VerticalTimeline className=''>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#ca2c92', color: '#fff' }}
+    contentStyle={{ background: '#2e79ba', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2019-2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -26,7 +26,7 @@ const Experience = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#ca2c92', color: '#fff' }}
+    contentStyle={{ background: '#2e79ba', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="July 2022 - September 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -40,7 +40,7 @@ const Experience = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#ca2c92', color: '#fff' }}
+    contentStyle={{ background: '#2e79ba', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="September 2022 - May 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -54,7 +54,7 @@ const Experience = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#ca2c92', color: '#fff' }}
+    contentStyle={{ background: '#2e79ba', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="May 2023 - July 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -68,7 +68,7 @@ const Experience = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#ca2c92', color: '#fff' }}
+    contentStyle={{ background: '#2e79ba', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="August 2023 Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
