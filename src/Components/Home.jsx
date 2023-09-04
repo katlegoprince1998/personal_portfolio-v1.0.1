@@ -15,7 +15,6 @@ const About = () => {
             <p className='text-white font-mydesc pt-2 md:text-2xl'>My name is <span className='text-[#2e79ba]'>Katlego Mashego</span> and I am a versatile DevOps Engineer with 1 year + experience of backend web
                 development.
             </p>
-             
            </div>
            <div>
             <button className='bg-[#2e79ba] my-4 p-4 rounded-2xl text-white font-bold hover:scale-125 duration-200'>Download Resume</button>
