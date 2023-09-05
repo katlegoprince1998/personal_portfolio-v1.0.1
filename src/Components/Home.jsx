@@ -8,7 +8,7 @@ const About = () => {
     <div className='pt-36 px-6 grid grid-cols-1 gap-8 justify-center items-center md:flex' id='Home'>
         <div className='w-full grid justify-center'>
            <div>
-            <h1 className='text-[#2e79ba] text-4xl  font-extrabold font-myname md:text-4xl'>
+            <h1 className='text-[#2e79ba] text-2xl  font-extrabold font-myname md:text-4xl'>
             I'm a {' '}
         <span style={{ color: 'white', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
