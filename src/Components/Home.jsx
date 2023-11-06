@@ -13,7 +13,7 @@ const About = () => {
         <span style={{ color: 'white', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['DevOpps Engineer', 'Software Engineer', 'Database Designer']}
+            words={['Backend Software Engineer']}
             loop={5}
             cursor
             cursorStyle='_'
