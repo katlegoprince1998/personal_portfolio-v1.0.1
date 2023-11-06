@@ -6,13 +6,13 @@ const tiktokLink = "https://www.tiktok.com/@code_world_vibes?_r=1&_d=e11gal28kh0
 
 const Contact = () => {
   return (
-    <div className='md:hidden h-screen pt-[450px] z-1' id='Contact'>
+    <div className='md:hidden h-["200px"] pt-[150px] z-1' id='Contact'>
      <div className='w-full flex justify-center items-center'>
      <h1 data-aos="fade-left" className='text-white text-3xl font-myname  flex justify-center items-center mb-4 md:text-5xl'>Contacts</h1>
      </div>
       <div className='w-full absolute '>
         <p data-aos="fade-right" className='text-[#2e79ba] text-[20px] font-bold font-mydesc  m-10'>You can contact me in any of the flollowing socials. </p>
-      <ul  className='flex justify-center items-center mt-6'>
+      <ul  className='flex justify-center items-center mt-["50px"]'>
         <li  className='p-2 hover:scale-150 duration-300'><a href='https://github.com/katlegoprince1998' target='_blank'><FaGithub className='text-gray-400' size={25} /></a></li>
         <li  className='p-2 hover:scale-150 duration-300'><a href='https://www.linkedin.com/in/katlego-prince-mashego-786900203' target='_blank'><FaLinkedin className='text-gray-400' size={25} /></a></li>
         <li  className='p-2 hover:scale-150 duration-300'><a href='https://twitter.com/ProficientDev?t=aAWPnhmPWyt8izcFNvEnlg&s=09' target='_blank'><FaTwitter className='text-gray-400' size={25} /></a></li>
